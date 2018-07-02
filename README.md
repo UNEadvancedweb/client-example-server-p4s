@@ -1,11 +1,12 @@
 # Examples Server
 
-If you are working on our student development machine, you can put your files in your `~/public_html` directory to serve them from `turing.une.edu.au`.  
-However, that requires you to be working on turing and to be accessing the web
-from on our university network.
+If you are working on our student development machine, you can put your files in your `~/public_html` directory to serve them from `turing.une.edu.au`.
+However, that requires you to be working on turing and to be accessing the web from on our university network.
 
-So, this is a barebones web server that you can run for serving client-side examples.
+So, this is a barebones web server that you can run for serving client-side examples from your own computer, if you have Java installed.
 It uses Play Framework for Scala, which is one of the server-side frameworks you can choose also.
+
+Alternatively, you could install Apache or nginx to serve up client-side examples from your own machine. This is just provided as an extra possibility.
 
 ### Set-up
 
