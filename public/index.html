@@ -1,0 +1,40 @@
+<html>
+<title>Examples</title>  
+<h1>Examples server</h1>
+<p>
+This is a bare-bones Play for Scala install, with the routes set to serve 
+everything from the <code>/public</code> folder.
+</p>
+<p>
+Put your examples into subdirectories, and access them 
+accordingly. Eg:    
+</p>
+<pre>
+    http://localhost:9000/myFirstExample/index.html
+</pre>
+
+<p>
+Please note that unlike Apache, this server does not auto-detect if your
+URL points to a directory instead of a file. I have however made it so that
+anything that ends with a <code>/</code> redirects to <code>index.html</code>.
+</p>
+<p>
+So, this will not produce 404 as it points to a directory but does not end /:
+</p>
+<ul>
+    <li><a href="/myFirstExample">/myFirstExample</a></li>
+</ul>
+
+But this will work, redirecting to the index.html file:
+
+<ul>
+    <li><a href="/myFirstExample/">/myFirstExample/</a></li>
+</ul>
+
+And this will work too:
+    
+<ul>
+    <li><a href="/myFirstExample/index.html">/myFirstExample/index.html</a></li>
+</ul>
+    
+</html>
